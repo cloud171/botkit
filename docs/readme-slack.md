@@ -159,7 +159,7 @@ The optional callback function receives:
 
 * Any error that occurred while connecting to Slack
 * An updated bot object
-* The resulting JSON payload of the Slack API command [rtm.start](https://api.slack.com/methods/rtm.start)
+* The resulting JSON payload of the Slack API command [rtm.connect](https://api.slack.com/methods/rtm.connect)
 
 The payload that this callback function receives contains a wealth of information
 about the bot and its environment, including a complete list of the users
